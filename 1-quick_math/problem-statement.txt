@@ -1,0 +1,21 @@
+Description:
+You are working on your math homework, and realize you don’t remember how to multiply numbers together! Ordinarily, you’d email your professor for help, but she’s getting a bit tired of you after your addition fiasco last week. You decide you have to take this into your own hands, but learning multiplication all over again is a lot of work! The best solution is to create a computer program that will multiply numbers for you, so you can focus on really nailing down those addition skills.
+
+Input:
+Input will be in the form "N * M", where N and M are the two integers to be multiplied. 0 < N, M < 100,000
+
+Output:
+A single integer that is the solution to the multiplication problem.
+
+Examples:
+In(1):
+2 * 3
+
+Out(1):
+6
+
+In(2):
+13 * 13
+
+Out(2):
+169

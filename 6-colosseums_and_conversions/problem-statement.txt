@@ -1,0 +1,29 @@
+Description:
+Hail and well met, traveler! You have been sent back in time to Ancient Rome, and although your language skills seem to be perfectly adequate, you are having a hard time understanding the number system that everyone else is using. Luckily, you brought your trusty MacBook Pro with you! You decide that the easiest path forward is to create a translator that you can input Roman Numerals and receive back the equivalent number in good-ol’ base-ten integers just like you’re used to.
+
+Roman Numerals are a cool way to represent any number with a string of letters, where the order of them is just as important as the letters themselves. The basic rules are that a letter represents a standard number, such as I = 1 or V = 5. These numbers can be arranged to form numbers, and a sufficient set of conversions is shown below. Note that increasing to within one unit of the next threshold changes the format and the order of the numbers, so 8 is VIII but 9 is IX, and 143 is CXLIII but 144 is CXLIV. 
+
+Input:
+The first line will contain a Roman Numeral representing an integer in the range (1, 10) designating the number of test cases to follow. Each test case will be one line containing a Roman Numeral, maximum MMM.
+
+Output:
+For each line of input, you should output that Roman Numeral translated into base ten on its own line. These outputs should be integers between 1 and 3000. 
+
+Examples:
+In(1):
+I
+VI
+
+Out(1):
+6
+
+In(1)
+III
+IV
+L
+XII
+
+Out(1):
+4
+50
+12

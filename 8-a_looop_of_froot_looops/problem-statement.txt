@@ -1,0 +1,12 @@
+Description:
+Your younger sibling just spilled all the Froot Looops on the floor! Oddly enough, they all landed in a straight line, so you decide to use the opportunity to test your Looops knowledge. You remember that each Looops in the Froot Looops box has a specific number assigned it such that if you put the Frooooot Looops in their numeric order, they make a pretty rainbow. You spend the time to figure out the number of each Looop in the line, but you can’t be bothered to sort the list, so you write an algorithm to do it for you.
+
+You know that there are some very fast sorting algorithms, but since you have to move all of the Froot Looops manually, you want it to minimize the number of actions you have to do. Furthermore, you’ve decided that you’ll only be reordering the Looops by swapping two Looops at a time, though you don’t care about far apart the two Looops are when you swap them.
+
+You are testing your own Looops knowledge though, so you don’t want a specific order of swaps, just the minimum number of swaps it takes to sort the Froot Looops.
+
+Input:
+The first line will contain an integer 1<=n<=1769 designating the number of Froot Looops to sort. The next n lines will contain a number 1<=i<=1769 designating that Looop’s true position in a list of integers 1 through n.
+
+Output:
+Output a single integer designating the minimum number of swaps it would take to get the Froot Looops into sorted order.

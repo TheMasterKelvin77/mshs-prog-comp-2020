@@ -1,0 +1,29 @@
+Description:
+You have gotten a prestigious job as photographer for a bubble conference. Your job is to take pictures of the 1v1 bubble wars, where two people will blow bubbles at each other one at a time to see who wins. You aren’t sure how they determine a winner, but that’s fine since you just have to photograph.
+
+You want to make sure that all the bubbles in your photos have equal representation, i.e, none of the bubbles are obscured by other bubbles. You’ve decided to write a program to sift through your photos and determine if they are good photos, with the following algorithm in mind:
+Each picture has two x,y coordinates associated with the respective bubbles as they appear in the picture
+Each picture also gives the radii of the two bubbles as they appear in the picture
+Return “Good Picture” if the bubbles don’t overlap
+Return “Unfair Picture” if the bubbles do overlap
+
+Input:
+The input will consist of two lines, each with an x, y, and r corresponding to the x and y coordinates of the bubbles and their radii.  0<=x,y<=100 and 1<=r<=50
+
+Output:
+Print the string “Good Picture” if the bubbles do not overlap. Print “Unfair Picture” otherwise.
+
+Examples:
+In(1):
+0 0 10
+100 100 10
+
+Out(1):
+Good Picture
+
+In(1)
+0 2 2
+0 3 2
+
+Out(1):
+Unfair Picture
