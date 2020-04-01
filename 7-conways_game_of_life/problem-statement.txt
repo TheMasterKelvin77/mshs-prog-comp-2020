@@ -1,0 +1,67 @@
+Description:
+Conway's Game of Life is a cellular life simulator often referred to as a "zero-player game," which means that given an input state, it can determine every subsequent board state without any outside help.
+
+There is a set of simple rules that determines, based on the current state of the board, which cells will be alive and dead in the next board state. Note that the term “neighbor” refers to any of the 8 cells adjacent or diagonal to a cell.
+
+The Game of Life’s rules that determine the next board state are as follows:
+
+Any live cell with two or three live neighbors continues to be a live cell.
+Any dead cell with exactly three live neighbors becomes a live cell.
+Any other cells will be a dead cell in the next state of the board.
+
+Given these rules, you are tasked with creating a program which will determine the next state of a 10x10 board with an arbitrary input state.
+
+Input:
+The input will be given in form of a ten by ten square of characters (ten lines of ten characters each), with a "0" representing a dead cell and a "1" representing a live cell.
+
+Output:
+The output is expected to be a ten by ten square of characters as above, representing the next state in Conway's Game of Life given the input state.
+
+Examples: note that example 2 is the pictured example
+In(1):
+0000000011
+0000000001
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+1000000000
+1100000000
+
+Out(1):
+0000000011
+0000000011
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+1100000000
+1100000000
+
+In(2):
+0000010001
+1100000001
+1100000000
+1001111000
+1000110000
+0000000000
+0000000000
+0000000000
+0000000000
+1111111111
+
+Out(2):
+0000000000
+1100000000
+0010110000
+1001001000
+0001001000
+0000000000
+0000000000
+0000000000
+0111111110
+0111111110

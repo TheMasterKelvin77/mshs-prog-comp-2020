@@ -1,0 +1,26 @@
+Description:
+You’re trying to make it through yet another semester, but it’s tough this time around. Luckily, you recently discovered the soothing properties of some simple data visualization. You think that if you were to wake up every morning to a nice-looking semester progress bar, you might just make it through with your sanity intact and GPA unspoiled.
+
+Input:
+A single line containing two integers N and M, separated by whitespace. N represents the total number of school days in the semester, while M represents the number of days you've already made it through.
+
+Output:
+Print out a single string which has 20 characters ('#' or '-') representing the semester progress, enclosed between the opening and closing square brackets, '[' and ']', 22 characters in total. The string contains several consecutive '#' characters right after the opening bracket '[', one for each 5% of the semester fully completed, then some consecutive '-' characters to make it to 20 semester-progress characters total, and finally the closing bracket ']'. If the current semester progress corresponds to a decimal number, convert it to an integer and round down.
+
+Constraints:
+1 $\leq$ N $\leq$ 80; 
+0 $\leq$ M $\leq$ 80; 
+M $\leq$ N
+
+Examples:
+In(1):
+5 2
+
+Out(1):
+[########------------]
+
+In(2):
+80 3
+
+Out(2):
+[--------------------]

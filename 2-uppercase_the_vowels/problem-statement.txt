@@ -1,0 +1,21 @@
+Description:
+An OU professor wants his students to know he's hip, trendy, and cool this semester. He's noticed that Spongebob memes are a big thing amongst the youth, including a meme where Spongebob says things with strange capitalization. He has no clue what the significance of it is, but he decides that it will help him connect with his students if he begins to use it. You have been asked to create a program that turns his sentences into "meme" versions of his sentences by capitalizing all of his vowels.
+
+Input:
+A string containing letters and spaces where 0<length<50.
+
+Output:
+A string in which all the vowels are uppercase.
+
+Examples:
+In(1):
+doing math homework is fun
+
+Out(1):
+dOIng mAth hOmEwOrk Is fUn
+
+In(2):
+teachers are always watching you
+
+Out(2):
+tEAchErs ArE AlwAys wAtchIng yOU

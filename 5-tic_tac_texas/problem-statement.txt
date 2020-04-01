@@ -1,0 +1,27 @@
+Description:
+OU has sent a group of collegiate level Tic-Tac-Toe players to compete against UT's team. In these games, OU is always circles, and UT is always crosses. The OU players want to know if, on a given turn, they have a single move that allows them to win. It will always be OU's turn to move. Help ensure the Sooners' victory against Texas by creating a program that will give them this information!
+
+A team wins when there is a full column, row, or diagonal of that team’s symbol, either circles or crosses. 
+
+Input:
+The input will be given in the form of three lines of three characters, with a "-" representing a blank space, an "x" representing a cross, and an "o" representing a circle.
+
+Output:
+The output is expected to be "Sooners Win!" if there is a possible victory for OU in one move, and "Texas Cheated" if there is no possible victory for OU in a single move. 
+
+Examples:
+In(1):
+---
+---
+---
+
+Out(1):
+Texas Cheated
+
+In(2):
+o-x
+ox-
+-ox
+
+Out(2):
+Sooners Win!
